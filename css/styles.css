@@ -165,7 +165,7 @@ img {
 }
 
 .features {
-
+padding: 120px;
 }
 
 .features-list {
@@ -173,7 +173,6 @@ img {
     gap: 24px;
     margin-right: auto;
     margin-left: auto;
-    margin: 90px 0;
 }
 
 .features-item {
@@ -311,7 +310,7 @@ img {
 .footer {
     font-family: "Raleway", sans-serif;
     background-color: #2e2f42;
-    padding: 70px 0;
+    padding: 100px 0;
 }
 
 .footer-text {
