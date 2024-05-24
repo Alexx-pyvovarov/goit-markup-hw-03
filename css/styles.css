@@ -178,8 +178,7 @@ img {
 .features-title {}
 
 .features-list {
-    display: flex;
-    width: calc((100% - 72px) / 4);
+    display: flex;   
     gap: 24px;
     padding-right: 156px;
     padding-left: 156px;
