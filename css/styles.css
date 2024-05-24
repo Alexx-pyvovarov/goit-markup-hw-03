@@ -28,9 +28,7 @@ img {
 }
 
 .container {
-    display: flex;
-    width: 1440px;
-    align-items: center;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -70,7 +68,7 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
-
+    margin-right: 332px;
 }
 
 .header-link {
@@ -95,8 +93,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 24px 0;
     padding-right: 156px;
 }
 
@@ -134,7 +131,7 @@ img {
 
 
 .hero-title {
-    display: flex;
+    display: block;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -142,32 +139,24 @@ img {
     text-align: center;
     color: #fff;
     max-width: 496px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 48px;
-    padding-left: 472px;
-}
-
-.btn-container {
-    display: block;
-    align-items: center;
+    margin: 0 auto;
 }
 
 .hero-btn {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
     display: block;
     min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
-    margin: 0 auto;
+    margin: 48px auto 0 auto;
     padding: 16px 32px;
 }
 
