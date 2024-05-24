@@ -33,6 +33,7 @@ img {
 
 .header {
     font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -109,13 +110,14 @@ img {
 
 .container {
     display: flex;
-    width: 1440px;
+    width: 1158px;
     align-items: center;
     padding: 0 15px;
         margin: 0 auto;
 }
 
 .hero-title {
+    display: flex;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -126,13 +128,12 @@ img {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 48px;
+    padding-left: 472px;
 }
 
 .btn-container {
-    display: flex;
+    display: block;
     align-items: center;
-    padding-right: 636px;
-    padding-bottom: 188px;
 }
 
 .hero-btn {
