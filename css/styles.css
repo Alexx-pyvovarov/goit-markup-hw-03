@@ -6,6 +6,8 @@ body {
 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 img {
@@ -42,7 +44,6 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    
 }
 
 
@@ -53,22 +54,25 @@ img {
 .header {
     font-family: "Roboto", sans-serif;
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
+
 
 .header-nav {
     display: flex;
     align-items: center;
-    margin-right: auto;
 }
 
 .header-container {
     display: flex;
+    align-items: center;
 }
 
 .header-menu-list {
     display: flex;
     gap: 40px;
     margin-right: 332px;
+    margin: 24px 0;
 }
 
 .header-link {
@@ -85,15 +89,13 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-}
-
-.contacts-container {
-    display: flex;
+    margin-left: auto;
+    display: block;
 }
 
 .contacts-list {
     display: flex;
-    align-items: center;
+    margin: 0 auto;
     gap: 40px;
     padding-top: 24px 0;
     padding-right: 156px;
@@ -101,7 +103,10 @@ img {
 
 .contacts-link {
     color: #434455;
+}
 
+.contacts-item {
+   
 }
 
 
@@ -160,20 +165,15 @@ img {
 }
 
 .features {
-    padding: 120px 0;
-}
 
-.features-title {}
+}
 
 .features-list {
     display: flex;   
     gap: 24px;
-    padding-right: 156px;
-    padding-left: 156px;
-    margin-top: 120px;
-    margin-bottom: 120px;
     margin-right: auto;
     margin-left: auto;
+    margin: 90px 0;
 }
 
 .features-item {
@@ -197,7 +197,6 @@ img {
     color: #434455;
 }
 
-
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
@@ -220,16 +219,11 @@ img {
 }
 
 .team-item {
-    flex-direction: column;
+
     background-color: #FFFFFF;
-    align-items: center;
-    margin: 0 12px;
-    width: calc((100% - 72px) / 4);
-    
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
-        height: 380px;
+    width: calc((100% - 72px) / 4);
 }
 
 .item-container {
@@ -317,7 +311,7 @@ img {
 .footer {
     font-family: "Raleway", sans-serif;
     background-color: #2e2f42;
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 .footer-text {
@@ -341,5 +335,5 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    
+    margin-bottom: 16px;
 }
